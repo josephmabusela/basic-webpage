@@ -1,0 +1,342 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+/* UNIVERSAL */
+body {
+  padding: 1%;
+  background-color: #eee;
+        
+}
+
+/* ROOT FONT STYLES */
+
+* {
+  font-family: 'Lato', Helvetica, sans-serif;
+  color: #333447;
+  line-height: 1.5;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Lato', Helvetica, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-heavy {
+  font-weight: 700;
+}
+
+/* POSITIONING */
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 96%;
+}
+
+.col-1-sm {
+  width: 4.33%;
+}
+
+.col-2-sm {
+  width: 12.66%;
+}
+
+.col-3-sm {
+  width: 21%;
+}
+
+.col-4-sm {
+  width: 29.33%;
+}
+
+.col-5-sm {
+  width: 37.66%;
+}
+
+.col-6-sm {
+  width: 46%;
+}
+
+.col-7-sm {
+  width: 54.33%;
+}
+
+.col-8-sm {
+  width: 62.66%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33%;
+}
+
+.col-11-sm {
+  width: 87.66%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+  .col-1 {
+    width: 4.33%;
+  }
+
+  .col-2 {
+    width: 12.66%;
+  }
+
+  .col-3 {
+    width: 21%;
+  }
+
+  .col-4 {
+    width: 29.33%;
+  }
+
+  .col-5 {
+    width: 37.66%;
+  }
+
+  .col-6 {
+    width: 46%;
+  }
+
+  .col-7 {
+    width: 54.33%;
+  }
+
+  .col-8 {
+    width: 62.66%;
+  }
+
+  .col-9 {
+    width: 71%;
+  }
+
+  .col-10 {
+    width: 79.33%;
+  }
+
+  .col-11 {
+    width: 87.66%;
+  }
+
+  .col-12 {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .container {
+    width: 100%;
+  }
+}
+
+
+
+.name {
+  text-align: center;
+} 
+
+.me {
+  text-align: center;
+}
+
+.city {
+  text-align: center;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.language{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  
+}
+
+.french-text {
+  text-align: center;
+  font-size: 1rem;
+  margin-right: 18%;
+  margin-left: 18%;
+}
+
+table {
+  width: 40%;
+  
+}
+
+.center {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+table, th, td {
+   border: 3px solid lightblue;
+   border-collapse: collapse;
+   margin-top: 2%;
+   font-size: 1rem;
+   text-align: center;
+}
+
+th, td {
+  padding: 2%;
+  align-self: center;
+}
+
+.historicalplaces {
+  text-align: center;
+  
+}
+
+li {
+    list-style: none;
+}
+.historicalheader {
+  font-weight: bolder;
+  font-size: 2rem;
+  margin-top: 3%;
+}
+
+.historicaltext {
+  margin-top: 2%;
+  font-size: 2rem;
+  margin-bottom: 5%;
+  text-align: center;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+.catholic {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.nelson {
+  float: left;
+  margin-right: 3%;
+}
+
+.irish {
+  float: left;
+  margin-right: 3%;
+}
+
+.church {
+  float: left;
+  margin-right: 3%;
+}
+
