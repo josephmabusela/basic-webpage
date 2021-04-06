@@ -276,7 +276,9 @@ img {
 }
 
 table {
-  width: 40%;
+  width: 100%;
+  margin: 50px auto;
+  margin-top: 50px;
   
 }
 
